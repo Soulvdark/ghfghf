@@ -890,7 +890,7 @@ label.toggle-item {
 		left: 25px;
 	}
 }
-.dialog{
+.dialog {
 	margin: 0 auto;
 	margin-top: 200px;
 	transition: 1s;
@@ -1006,7 +1006,7 @@ label.toggle-item {
 }
 .form-group input:focus {
 	color: rgba(0, 0, 0, 0.8);
-color: #ffffff;
+	color: #ffffff;
 }
 .form-group button {
 	outline: none;
@@ -1050,6 +1050,7 @@ color: #ffffff;
 	font-size: 24px;
 	font-weight: 700;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 .two .form-header h1 {
 	position: relative;
@@ -1087,4 +1088,126 @@ color: #ffffff;
 .cp-fab {
 	background: #ffffff !important;
 	color: #4285f4 !important;
+}
+
+@media (max-width: 360px) {
+	.menu {
+		width: 80%;
+	}
+	.main {
+		width: 270px;
+		margin-left: 50px;
+	}
+	.dashboard {
+		width: 200px;
+		margin: 0 auto;
+	}
+	.cards {
+		width: 200px;
+	}
+	.card {
+		width: 200px;
+	}
+	.card__animation {
+		width: 200px;
+	}
+	.card__image {
+		width: 200px;
+	}
+	.card-choose {
+		width: 200px;
+	}
+	.card__name {
+		font-size: 8px;
+	}
+	.card-send__image {
+		width: 17px;
+		height: 17px;
+	}
+	.card-info {
+		width: 150px;
+	}
+	.card__settings {
+		width: 17px;
+		height: 17px;
+		margin-left: 0 auto;
+	}
+	.menu__list-text {
+		font-family: Roboto;
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+	.dashboard-name {
+		font-size: 12px;
+		padding-left: 5px;
+	}
+	.dashboard- {
+		font-size: 10px;
+	}
+	.dashboard-project {
+		font-size: 8px;
+	}
+	.header {
+		width: 310px;
+	}
+	.search-new {
+		gap: 7px;
+		width: 185px;
+		padding-right: 0;
+	}
+	.new-project {
+		width: 85px;
+		height: 20px;
+		font-size: 8px;
+	}
+	.search-form__image {
+		width: 10px;
+		height: 10px;
+	}
+	.search-form {
+		width: 86px;
+		height: 20px;
+		padding: 0;
+	}
+	.search-form__txt {
+		width: 68px;
+		font-size: 8px;
+		padding-right: 5px;
+	}
+	.menu__list-img {
+		margin-right: 9px;
+		margin-left: 10px;
+	}
+	.bth {
+		width: 50px;
+		height: 25px;
+		top: 27%;
+	}
+	.form {
+		width: 340px;
+	}
+	.form-panel {
+		width: 340px;
+	}
+	.bth input[type='checkbox'] {
+		width: 50px;
+		height: 25px;
+	}
+	input:checked[type='checkbox']::before {
+		background: linear-gradient(to bottom, #444, #222);
+		box-shadow: inset 0 2px 2px #ffffff33, inset 0 -2px 2px #fff3ff;
+		transform: translateX(25.5px);
+	}
+	input[type='checkbox']::before {
+		width: 20px;
+		height: 20px;
+		left: 1.5px;
+		top: 2.7px;
+	}
+	input:checked[type='checkbox']::before {
+		width: 20px;
+		height: 20px;
+	}
 }
